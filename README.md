@@ -4,11 +4,11 @@ pip install -r requirements.txt
 ```
 ### dev mode
 ```
-python3 3DInpainting.py
+python3 bot_openai.py
 ```
 ### product mode
 ```
-pm2 start 3DInpainting.py --name 3DInpainting.py --interpreter python3
+pm2 start bot_openai.py --name bot_openai.py --interpreter python3
 ```
-pm2 stop 3DInpainting.py
+pm2 stop bot_openai.py
 ```
